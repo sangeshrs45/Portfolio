@@ -1,0 +1,37 @@
+.education .progress-circles {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  margin-top: 30px;
+}
+
+.circle {
+  text-align: center;
+}
+
+.outer {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: conic-gradient(#fff 80%, #333 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner {
+  background: #000;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  line-height: 80px;
+  font-size: 18px;
+}
+
+.contact .icons {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
